@@ -1,8 +1,8 @@
-"""Function to get a valid score (0-100 inclusive)"""
+"""Function to get a valid score between 0 and 100"""
 def get_valid_score():
     while True:
         try:
-            score = float(input("Enter a valid score (0-100 inclusive): "))
+            score = float(input("Enter a valid score between 0 to 100: "))
             if 0 <= score <= 100:
                 return score
             else:
@@ -58,5 +58,4 @@ def main():
             print("Invalid choice. Please select a valid option.")
 
 
-if __name__ == "__main__":
-    main()
+main()
