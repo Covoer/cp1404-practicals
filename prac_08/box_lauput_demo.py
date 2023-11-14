@@ -5,7 +5,7 @@ from kivy.lang import Builder
 class BoxLayoutDemo(App):
     def build(self):
         self.title = "Box Layout Demo"
-        self.root = Builder.load_file('box_layout.kv') #  file name wrong spelling "box_la"
+        self.root = Builder.load_file('box_layout.kv') #  filename does not match due to spelling "box_layput.kv"
         return self.root
 
     def handle_greet(self):
