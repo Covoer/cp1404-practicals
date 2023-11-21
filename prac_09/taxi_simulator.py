@@ -8,7 +8,7 @@ def main():
     total_bill = 0
 
     print("Let's drive!")
-    while True:
+    while True:  #  True being used
         print("q)uit, c)hoose taxi, d)rive")
         choice = input(">>> ").lower()
 
